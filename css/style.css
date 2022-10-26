@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+.header {
+  position: sticky;
+  top: 0;
+}
+.navbar {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 4px 32px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 16px;
+  padding: 4px 16px;
+  margin: 0px 4px;
+  border: 0px solid transparent;
+  border-radius: 16px;
+}
+
+.menu a:hover {
+  background-color: blue;
+}
+#portfolio {
+  padding-left: 25px;
+}
+#about {
+  padding-left: 25px;
+}
+#contacts {
+  padding-left: 25px;
+  background-color: beige;
+}
