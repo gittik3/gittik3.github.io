@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-family: Jura;
 }
+
 h1, h2 {
   margin: 0;
 }
@@ -24,8 +25,6 @@ h1, h2 {
   align-items: center;
   padding: 4px 32px;
 }
-
-
 .logo {
   text-decoration: none;
   color: white;
@@ -61,7 +60,6 @@ h1, h2 {
  }
 
  /*intro*/
-
 .container_01 {
   width: 100%;
   max-width: 1200px;
@@ -145,6 +143,7 @@ border-radius: 20px;
   color: #fff;
   padding-left: 100px;
   padding-top: 50px;
+  padding-bottom: 100px;
   
 }
 .skills_item {
@@ -169,7 +168,6 @@ border-radius: 20px;
   font-size: 16px;
   max-width: 250px;
 }
-
 
 /*section_portfolio*/
 
@@ -198,7 +196,6 @@ padding: 50px 200px ;
   width: 282px;
   position: relative;
 }
-
 .portfolio_item:hover .portfolio_img img{
   opacity: 0.4;
 }
@@ -230,164 +227,4 @@ background: black
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* {
-  box-sizing: border-box;
-}
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-}
-
-
-.navbar {
-  position: sticky;
-  top: 0;
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  align-items: center;
-  padding: 4px 32px
-
-  ;
-}
-
-
-.logo {
-  text-decoration: none;
-  color: white;
-  font-size: 36px;
-  background-color: transparent;
-}
-.menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: flex-end;
-  
-}
-.menu a {
-  color: white;
-  text-decoration: none;
-  background-color: transparent;
-  font-size: 20px;
-  padding: 4px 16px;
-  margin: 0px 4px;
-  border: 0px solid transparent;
-  border-radius: 16px;
-  
-}
-
-.menu a:hover {
-  background-color: blue;
-}
-
-#starter {
-  background-color: rgb(255, 113, 11);
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  padding-left: 450px;
-  padding-right: 450px;
-  padding-top: 165px;
-  padding-bottom: 165px;
-  font-size: 36px;
-  
-}
-#hobi {
-  color: white;
-  padding-top: 200px;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  font-size: 172px;
-}
-#hobilist {
-  color: white;
-  font-size: 32px;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  padding-top: 100px;
-  padding-bottom: 200px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-#cat {
-  display: flex;
-  font-size: 72px;
-  justify-content: center;
-  padding-top: 150px;
-  padding-bottom: 80px;
-}
-#catphoto {
-background-color: white;
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding-left: 70px;
-padding-right: 70px;
-
-padding-bottom: 200px;
-}
-#cattext {
-  font-size: 22px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column
-  
-}
-#contact {
-  background-color: rgb(106, 106, 106);
-  display: flex;
-  justify-content: center;
-  color: white;
-  font-size: 72px;
-  padding-top: 200px;
-}
-#contacts {
-  background-color: rgb(106, 106, 106);
-  display: flex;
-  padding-top: 100px;
-  font-size: 32px;
-  text-decoration: none;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 200px;
-}
 
