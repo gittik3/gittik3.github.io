@@ -280,3 +280,6 @@ height: auto;
   z-index: 2;
   transform: translate3d(0, -50%, 0);
 }
+/*.no{
+max-width: 50px;
+}
