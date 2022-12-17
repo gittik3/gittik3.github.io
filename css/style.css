@@ -29,10 +29,12 @@ h3 {
   z-index: 99;
 }
 .logo {
-  text-decoration: none;
-  color: white;
   font-size: 42px;
   background-color: transparent;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
 }
 .menu {
   list-style: none;
@@ -155,6 +157,9 @@ h3 {
 /*section_skills*/
 
 .section_2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   padding: 100px 0px;
   background-color: black;
 }
@@ -173,56 +178,28 @@ h3 {
 .skills {
   display: flex;
   color: #fff;
-  padding-left: 100px;
   padding-top: 70px;
   padding-bottom: 100px;
+  flex-wrap: wrap;
+  row-gap: 40px;
 }
 .skills_item {
   flex: 1 1 0;
   padding-left: 70px;
-  position: relative;
+  display: flex;
+  flex-basis: 33%;
 }
 .skills_icon {
   width: 50px;
-  position: absolute;
-  top: 0;
-  left: 0px;
-  z-index: 1;
 }
 .skills_title {
+  padding-left: 20px;
   font-size: 22px;
   text-transform: uppercase;
   margin-bottom: 12px;
 }
 .skills_text {
-  font-size: 16px;
-  max-width: 250px;
-}
-.skills_2 {
-  display: flex;
-  color: #fff;
-  padding-left: 100px;
-  padding-top: 50px;
-  padding-bottom: 100px;
-}
-.skills_item_2 {
-  flex: 1 1 0;
-  padding-left: 70px;
-  position: relative;
-}
-.skills_icon_2 {
-  width: 50px;
-  position: absolute;
-  top: 0;
-  left: 0px;
-  z-index: 1;
-}
-.skills_title_2 {
-  font-size: 22px;
-  text-transform: uppercase;
-  margin-bottom: 12px;
-}
-.skills_text_2 {
+  padding-left: 20px;
   font-size: 16px;
   max-width: 250px;
 }
@@ -283,7 +260,7 @@ h3 {
 
 .section_4 {
   padding: 100px 0px;
-  background-color: gray;
+  background-color: rgb(47, 47, 47);
 }
 
 .container_04 {

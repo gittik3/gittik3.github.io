@@ -26,6 +26,15 @@ function mobileMenu_init() {
           event.preventDefault();
           mobileMenu_toggle();
         });
+
+      document.querySelectorAll("#mobile-menu-content a").forEach((item) => {
+        item.addEventListener("click", (event) => {
+          document.getElementById("mobile-menu").classList.remove("open");
+          document
+            .getElementById("mobile-menu-content")
+            .classList.remove("open");
+        });
+      });
     }
   } else {
     mobileMenu_destroy();
@@ -43,6 +52,7 @@ function mobileMenu_build() {
   let navigation_clone = document
     .querySelector(".navbar  > ul")
     .cloneNode(true);
+  navigation_clone.classList.remove("menu");
   menu_content_overflow.appendChild(navigation_clone);
 }
 

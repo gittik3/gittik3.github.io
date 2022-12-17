@@ -4,10 +4,10 @@
   --header-height: 57.6px;
   --mobile-menu-width: 4rem;
 
-  --purple-dark-2: hsl(270, 0%, 5%);
+  --purple-dark-2: rgb(255, 255, 255);
   --purple-dark-1: hsl(270, 20%, 15%);
-  --purple: hsl(270, 40%, 50%);
-  --purple-light-1: hsl(270, 78%, 30%);
+  --purple: hsl(0, 0%, 0%);
+  --purple-light-1: hsl(0, 0%, 98%);
 }
 @media (max-width: 1000px) {
   .navbar .menu {
