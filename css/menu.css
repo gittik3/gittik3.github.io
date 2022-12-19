@@ -94,3 +94,32 @@
     display: block;
   }
 }
+@media (max-width: 1000px){
+  .section_4 {
+    padding: 100px 0px;
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contacts {
+    display: flex;
+    color: #fff;
+    padding-left:10px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+  }
+  .contact_item {
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+    
+  }
+}
+
