@@ -9,7 +9,7 @@
   --purple: hsl(0, 0%, 0%);
   --purple-light-1: hsl(0, 0%, 98%);
 }
-@media (max-width: 1000px) {
+@media (max-width: 1000px) { /*hamburger*/
   .navbar .menu {
     display: none;
   }
@@ -94,7 +94,7 @@
     display: block;
   }
 }
-@media (max-width: 1000px){
+@media (max-width: 1000px){ /*contact*/
   .section_4 {
     padding: 100px 0px;
     background-color: rgb(47, 47, 47);
@@ -107,7 +107,7 @@
     color: #fff;
     padding-left:10px;
     padding-top: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     flex-wrap: wrap;
   }
   .contact_item {
@@ -117,9 +117,89 @@
     flex-basis: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    
-    
+  }
+  .container_05 {
+    min-width: 300px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+ 
+}
+@media (max-width: 1000px){ /*about*/
+  .section_1 {
+    padding: 120px 0;
+    background-color: rgb(215, 98, 15);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about_inner {
+    display: flex;
+    max-width: 700px;
+  }
+  .about_img,
+  .about_content {
+    display: flex;
+    flex-direction: column;
     
   }
-}
+  .about_title {
+    font-size: 55px;
+    color: #fff;
+  }
+  .about_bigtitle {
+    margin-bottom: 40px;
+    font-size: 80px;
+    color: #fff;
+    line-height: 60px;
+  }
+  .about_text {
+    color: #fff;
+    font-size: 16px;
+  }
+  .imge {
+    max-width: 450px;
+    height: auto;
+  }
+  
+  }
+  @media (max-width: 1000px) { /*intro*/
+    .container_01 {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 30px;
+    }
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-width: 700px;
+      height: 100vh;
+      background: url(../images/leaf.jpg) center no-repeat;
+      background-size: cover;
+    }
+    .intro_title {
+      color: #fff;
+      font-size: 70px;
+      font-weight: 700;
+      text-align: left;
+      line-height: 1;
+      max-width: 600px;
+    }
+    .intro_sup {
+      margin-top: 70px;
+      font-size: 30px;
+      color: #fff;
+      text-align: left;
+    }
+    .intro_sup:after {
+      content: "";
+      display: block;
+      width: 340px;
+      height: 3px;
+      background-color: #fff;
+      margin: 20px 0px;
+      margin-bottom: 90px;
+    }
+  }
 
