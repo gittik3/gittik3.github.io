@@ -9,7 +9,8 @@
   --purple: hsl(0, 0%, 0%);
   --purple-light-1: hsl(0, 0%, 98%);
 }
-@media (max-width: 1000px) { /*hamburger*/
+@media (max-width: 1000px) {
+  /*hamburger*/
   .navbar .menu {
     display: none;
   }
@@ -94,7 +95,8 @@
     display: block;
   }
 }
-@media (max-width: 1000px){ /*contact*/
+@media (max-width: 1000px) {
+  /*contact*/
   .section_4 {
     padding: 100px 0px;
     background-color: rgb(47, 47, 47);
@@ -105,7 +107,7 @@
   .contacts {
     display: flex;
     color: #fff;
-    padding-left:10px;
+    padding-left: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
     flex-wrap: wrap;
@@ -123,9 +125,9 @@
     text-align: center;
     padding-bottom: 50px;
   }
- 
 }
-@media (max-width: 1000px){ /*about*/
+@media (max-width: 1000px) {
+  /*about*/
   .section_1 {
     padding: 120px 0;
     background-color: rgb(215, 98, 15);
@@ -141,7 +143,6 @@
   .about_content {
     display: flex;
     flex-direction: column;
-    
   }
   .about_title {
     font-size: 55px;
@@ -161,72 +162,69 @@
     max-width: 450px;
     height: auto;
   }
-  
+}
+@media (max-width: 1000px) {
+  /*intro*/
+  .container_01 {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 0px;
   }
-  @media (max-width: 1000px) { /*intro*/
-    .container_01 {
-      width: 100%;
-      max-width: 400px;
-      margin: 0 0px;
-    }
-    .intro {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      max-width: 700px;
-      height: 100vh;
-      background: url(../images/leaf.jpg) center no-repeat;
-      background-size: cover;
-    }
-    .intro_title {
-      color: #fff;
-      font-size: 70px;
-      font-weight: 700;
-      text-align: left;
-      line-height: 1;
-      max-width: 400px;
-      
-    }
-    .intro_sup {
-      margin-top: 70px;
-      font-size: 30px;
-      color: #fff;
-      text-align: left;
-    }
-    .intro_inner {
-     
-      max-width: 400px;
-      margin: 0 30px;
-      text-align: center;
-    }
-    .intro_sup:after {
-      content: "";
-      display: block;
-      width: 340px;
-      height: 3px;
-      background-color: #fff;
-      margin: 20px 0px;
-      margin-bottom: 90px;
-    }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    height: 100vh;
+    background: url(../images/leaf.jpg) center no-repeat;
+    background-size: cover;
   }
-  @media (max-width: 1000px) { /*portfolio*/
-    .section_3 {
-      padding-top: 100px;
-      padding-bottom: 150px;
-      background-color: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .portfolio {
-      display: flex;
-      flex-wrap: wrap;
-      row-gap: 40px;
-    
-    }
-    .portfolio_item {
-      width: 300px;
-      position: relative;
-      
-    }
+  .intro_title {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1;
+    max-width: 400px;
   }
+  .intro_sup {
+    margin-top: 70px;
+    font-size: 30px;
+    color: #fff;
+    text-align: left;
+  }
+  .intro_inner {
+    max-width: 400px;
+    margin: 0 30px;
+    text-align: center;
+  }
+  .intro_sup:after {
+    content: "";
+    display: block;
+    width: 340px;
+    height: 3px;
+    background-color: #fff;
+    margin: 20px 0px;
+    margin-bottom: 90px;
+  }
+}
+@media (max-width: 1000px) {
+  /*portfolio*/
+  .section_3 {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+  }
+  .portfolio_item {
+    width: 300px;
+    position: relative;
+  }
+}
