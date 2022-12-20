@@ -166,8 +166,8 @@
   @media (max-width: 1000px) { /*intro*/
     .container_01 {
       width: 100%;
-      max-width: 600px;
-      margin: 0 30px;
+      max-width: 400px;
+      margin: 0 0px;
     }
     .intro {
       display: flex;
@@ -184,13 +184,20 @@
       font-weight: 700;
       text-align: left;
       line-height: 1;
-      max-width: 600px;
+      max-width: 400px;
+      
     }
     .intro_sup {
       margin-top: 70px;
       font-size: 30px;
       color: #fff;
       text-align: left;
+    }
+    .intro_inner {
+     
+      max-width: 400px;
+      margin: 0 30px;
+      text-align: center;
     }
     .intro_sup:after {
       content: "";
